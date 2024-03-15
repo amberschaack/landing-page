@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  display: flex;
+}
+
+.links {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+img {
+    height: 200px;
+}
+
